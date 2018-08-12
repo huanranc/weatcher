@@ -1,0 +1,13 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/list/list"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#cbeefd",
+    "navigationBarTitleText": "感叹号",
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh": true
+  }
+}

@@ -1,0 +1,132 @@
+/*width 750rpx, height 760rpx
+760=174+280+56+250*/
+.weather-wrapper {
+  position: relative;
+  padding-top: 20rpx;
+  padding-bottom: 250rpx;
+}
+
+/*height 154rpx
+154=42+10+42+60*/
+.location-wrapper{
+  margin-bottom: 60rpx;
+  font-size: 30rpx;
+  line-height: 42rpx;
+  color: rgba(0, 0, 0, 0.5)
+}
+
+.location{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.location-icon{
+  margin-right: 10rpx;
+  width: 21rpx;
+  height: 30rpx;
+}
+
+.location-tips{
+  height: 42rpx; /*固定高度, 没字时也有高度*/
+  margin-top:10rpx;
+  text-align: center;
+}
+
+.temp {
+  text-align:center;
+  font-size:200rpx;
+  line-height:280rpx;
+  opacity:0.8;
+}
+
+.weather {
+  text-align: center;
+  font-size: 40rpx;
+  line-height: 56rpx;
+  opacity: 0.65;
+}
+
+.weather-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.weather-futher {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50rpx;
+  margin-bottom: 40rpx; 
+}
+
+.weather-icon {
+  width: 36rpx;
+  height: 28rpx;
+  margin-right: 10rpx;
+}
+
+.weather-text {
+  font-size: 30rpx;
+  line-height: 40rpx;
+  opacity: 0.5;
+}
+
+.futher-list {
+  display: flex;
+}
+
+.futher-item {
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  flex-shrink: 0;
+  width: 120rpx;
+  font-size: 32rpx;
+  line-height: 42rpx;
+}
+.futher-time {
+  font-size: 30rpx;
+  line-height: 42rpx;
+}
+
+.futher-weather {
+  margin-top: 50rpx;
+  margin-bottom: 50rpx;
+  width: 60rpx;
+  height: 60rpx;
+}
+
+.futher-text {
+  font-size: 40rpx;
+  line-height: 56rpx
+}
+
+.day-weather {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  bottom:0;
+  left: 40rpx;
+  right: 40rpx;
+  height: 90rpx;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  font-size: 30rpx;
+  line-height: 42rpx;
+  color: rgba(0, 0, 0, 0.5)
+}
+
+.temp-text {
+  flex-grow: 1;
+  padding-right: 30rpx;
+  text-align: right;
+}
+
+.arrow-icon {
+  width: 13rpx;
+  height: 24rpx;
+}
